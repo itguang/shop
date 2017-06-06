@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:19:25:32 +0800] "GET /shop/index.jsp HTTP/1.1" 200 629 http-bio-8080-exec-1 1256
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:19:25:33 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-7 0
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:19:42:45 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 322
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:21:46:13 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 544
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:21:59:59 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-3 477
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:01:51 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-7 12
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:02:27 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 667
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:03:17 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 630
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:16:18 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 596
