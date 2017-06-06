@@ -7,3 +7,5 @@
 0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:02:27 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 667
 0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:03:17 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 630
 0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:16:18 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 596
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:42:15 +0800] "GET /shop/customerAction_save.action HTTP/1.1" 200 629 http-bio-8080-exec-1 662
+0:0:0:0:0:0:0:1 - - [06/Jun/2017:22:42:16 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
