@@ -5,6 +5,14 @@ import domain.Customer;
 
 public interface CustomerService {
 
-	Customer findOne(String custId);
+	Customer findOne(Integer custId);
+
+	void regist(Customer customer);
+
+	Customer login(Customer customer);
+
+	Customer findByName(String username);
+
+	Customer findByEmail(String email);
 
 }

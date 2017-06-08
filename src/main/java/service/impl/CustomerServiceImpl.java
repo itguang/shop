@@ -14,7 +14,26 @@ public class CustomerServiceImpl implements CustomerService {
 	public void setCustomerDao(CustomerDao customerDao) {
 		this.customerDao = customerDao;
 	}
-	public Customer findOne(String custId) {
+	public Customer findOne(Integer custId) {
 		return customerDao.findOne(custId);
+	}
+	@Override
+	public void regist(Customer customer) {
+		customerDao.regist(customer);
+		
+	}
+	@Override
+	public Customer login(Customer customer) {
+		return customerDao.login(customer);
+		
+	}
+	@Override
+	public Customer findByName(String username) {
+		return customerDao.findByName(username);
+	}
+	@Override
+	public Customer findByEmail(String email) {
+		// TODO Auto-generated method stub
+		return customerDao.findByEmail(email);
 	}
 }

@@ -3,9 +3,14 @@
     "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
     "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
+  <constant name="struts.devMode" value="true" />
 	<package name="demo" extends="struts-default" namespace="/">
 		<action name="customerAction_*" class="customerAction" method="{1}">
 			<result name="success">/index.jsp</result>
+			<result name="loginSuccess">/index.jsp</result>
+			<result name="regist">/login.jsp</result>
+			<result name="loginError">/login.jsp</result>
+			<result name="logout">/index.jsp</result>
 		</action>
 	</package>
 </struts>
